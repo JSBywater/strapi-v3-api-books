@@ -24,9 +24,15 @@ This project uses the following environment variables. If not set, it will load 
 - AUTHENTICATION_DATABASE
 - DATABASE_SSL
 
+# Install & Run
+
+- `npm i`
+- `npm run develop` / `npm run start`
+
 # Author
 
 Antonio Ufano
-[web](https://antonioufano.com)
-[blog](https://antonioufano.com/blog)
-[twitter](https://twitter.com/uf4no)
+
+- [web](https://antonioufano.com)
+- [blog](https://antonioufano.com/blog)
+- [twitter](https://twitter.com/uf4no)
