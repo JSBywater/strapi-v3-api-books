@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "name": "books",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 300,
+      "minLength": 30
+    },
+    "authors": {
+      "model": "authors"
+    }
+  }
+}
